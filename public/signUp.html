@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="default.css">
+    <title>signUp</title>
+</head>
+<body>
+    <div class="centered-form">
+        <div class="centered-form__box">
+            <h1>Registration</h1>
+            <form action="./default.html" >
+                <label>Name</label>
+                <input type="text" id="name" name="name" placeholder="Display name" required>
+                <label>Password</label>
+                <input type="password" id="password" name="password" placeholder="password" required>
+                <label>Email</label>
+                <input type="email" id="email" name="email" placeholder="email" required>
+                <button id="register">register</button>
+                <button id="submitButton">return to last page</button>
+            </form>
+        </div>
+        <script src="./../data/routers/userRouter.js"></script>
+</body>
+</html>
